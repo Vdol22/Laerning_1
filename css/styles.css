@@ -1,0 +1,70 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.page__header{
+    background-color: #445162;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.page__header:after{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.page__header_content{
+    color: #ffffff;
+    float: left;
+}
+
+.page__header_content_text{
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.page__header_content_list{
+    margin: 0;
+    list-style: none;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    padding: 0 0 0 33px;
+}
+
+.page__header_content_list_item{
+    position: relative;
+}
+
+.page__header_content_list_item:before{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    background-image: url(../img/check_icon_346.png);
+    background-size: cover;
+    position: absolute;
+    top: 5px;
+    left: -30px;
+}
+
+.page__header_img{
+    float: right;
+    display: block;
+    background-color: #fff;
+    width: 469px;
+    height: 214px;
+}
