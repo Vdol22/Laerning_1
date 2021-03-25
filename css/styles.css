@@ -134,6 +134,10 @@ body{
     font-weight: 400;
     color: #333333;
     display: flex;
+    width: 100%;
+}
+
+.main__dignity_items_wrp{
     width: 50%;
 }
 
@@ -142,4 +146,59 @@ summary{
     line-height: 24px;
     font-weight: 400;
     color: #333333;
+}
+
+/* Screenshots */
+
+.main__screenshots_wrp{
+    padding: 50px;
+    background-color: #fff;
+}
+
+.main__screeenshots_header{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin-bottom: 35px;
+}
+
+.main__screenshots_section_main_wrp{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__screenshots_img{
+    height: 150px;
+    min-width: 200px;
+    background-color: #445161;
+    display: block;
+}
+
+.main__screenshots_section_card_wrp{
+    display: flex;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.main__screenshots_content_header{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0 0 5px 15px;
+}
+
+.main__screenshots_content_txt{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0 0 0 15px;
+}
+
+.main__screenshots_section_wrp_wrp{
+    margin-right: 16px;
 }
