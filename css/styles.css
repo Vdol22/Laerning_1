@@ -285,7 +285,7 @@ summary{
 .main__buy_content{
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .main__buy_header{
@@ -300,10 +300,8 @@ summary{
 
 .main__buy_content_card{
     background-color: #445162;
-    width: 30%;
     padding-bottom: 20px;
-    margin: 0 auto;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .main__buy_content_card_header{
@@ -328,7 +326,6 @@ summary{
     padding: 18px 0 18px;
     background-color: #fff;
     border: #445162 solid 2px;
-    box-sizing: border-box;
 }
 
 .main__buy_content_card_list{
@@ -340,6 +337,8 @@ summary{
     line-height: 24px;
     font-weight: 400;
     color: #ffffff;
+    list-style-position: inside;
+    padding-left: 20px;
 }
 
 .main__buy_content_card_list_button{
@@ -347,7 +346,6 @@ summary{
     background-color: #fff;
     margin: 0 auto;
     border-radius: 8px;
-    box-sizing: border-box;
 }
 
 .main__buy_content_card_list_button_txt{
