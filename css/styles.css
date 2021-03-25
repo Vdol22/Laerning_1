@@ -120,12 +120,12 @@ body{
     line-height: 36px;
     font-weight: 400;
     color: #445161;
-    padding: 30px;
 }
 
 .main__dignity_items{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 30px;
 }
 
 .main__dignity_spoiler{
@@ -239,7 +239,7 @@ summary{
 .main__reviews_items_card_text{
     padding: 16px 20px 16px 20px;
     background-color: #ebebeb;
-    border-radius: 2%;
+    border-radius: 8px;
     position: relative;
     margin-right: 32px;
     margin-bottom: 24px;
@@ -358,4 +358,67 @@ summary{
     color: #445161;
     padding: 14px 0 13px;
     margin: 0 auto;
+}
+
+/* contacts */
+
+.main__contacts_wrp {
+    padding: 50px;
+    background-color: #445162;
+}
+
+.main__contacts_header{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.main__contacts_content{
+    display: flex;
+    justify-content: center;
+}
+
+.main__contacts_input{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__contacts_input_area{
+    border-radius: 5px;
+    margin-bottom: 21px;
+    height: 40px;
+    width: 500px;
+}
+
+.main__contacts_input_area_big{
+    height: 170px;
+}
+
+.main__contacts_input_button{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #445162;
+    width: 140px;
+    height: 40px;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.main__contacts_links_txt{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.main__contacts_links{
+    padding-left: 45px;
 }
