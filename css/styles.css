@@ -186,6 +186,8 @@ summary{
 .main__screenshots_wrp{
     padding: 50px;
     background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main__screeenshots_header{
@@ -196,11 +198,11 @@ summary{
     font-weight: 400;
     color: #445161;
     margin-bottom: 35px;
+    width: 100%;
 }
 
 .main__screenshots_section_main_wrp{
-    display: flex;
-    flex-wrap: wrap;
+
 }
 
 .main__screenshots_img{
@@ -241,9 +243,6 @@ summary{
 .main__reviews_wrp{
     padding: 50px;
     background-color: #f5f5f5;
-}
-
-.main__reviews_items{
     display: flex;
     flex-wrap: wrap;
 }
@@ -256,6 +255,7 @@ summary{
     display: block;
     text-align: center;
     margin-bottom: 35px;
+    width: 100%;
 }
 
 .main__reviews_items_card_text_comment{
