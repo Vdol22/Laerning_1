@@ -9,6 +9,27 @@ body{
     box-sizing: border-box;
 }
 
+.btn_style{
+    outline-style: none;
+}
+
+.btn_style:hover{
+    background-color: rgba(216, 209, 255, 0.815);
+}
+
+.btn_style:active{
+    background-color: bisque;
+    color: black;
+}
+
+.input_area_style{
+    outline:none
+}
+
+.input_area_style:focus{
+background-color: rgb(201, 201, 252);
+}
+
 /* HEADER */
 
 .page__header{
@@ -379,9 +400,6 @@ summary{
     background-color: #fff;
     margin: 0 auto;
     border-radius: 8px;
-}
-
-.main__buy_content_card_list_button_txt{
     display: block;
     text-transform: uppercase;
     text-align: center;
@@ -471,4 +489,3 @@ footer{
     padding: 10px 0 5px 0;
     margin: 0;
 }
-.
